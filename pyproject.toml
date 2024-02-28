@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rag-pra"
+version = "0.1.0"
+description = ""
+authors = ["ac2393921 <ac2393921@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+langchain = "0.0.163"
+pygpt4all = "1.1.0"
+transformers = "^4.38.1"
+datasets = "^2.17.1"
+chromadb = "^0.4.24"
+tiktoken = "^0.6.0"
+black = "^24.2.0"
+flake8 = "^7.0.0"
+sentence-transformers = "^2.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
